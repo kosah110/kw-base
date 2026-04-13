@@ -1,4 +1,4 @@
-AddCSLuaFile()
+--[[AddCSLuaFile()
 
 SWEP.Base           = "kenni_weapon_base"
 SWEP.PrintName      = "AR2 Pulse Rifle"
@@ -174,4 +174,4 @@ SWEP.Animations = {
     holster_empty = { seq = "holster_empty" },
 }
 
-SWEP.ImpactEffect = "AR2Impact"
+SWEP.ImpactEffect = "AR2Impact"--]]
