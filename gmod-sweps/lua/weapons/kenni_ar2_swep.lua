@@ -541,6 +541,8 @@ SWEP.Keys = {
 --     }
 --
 --   With eye attachment camera (for muzzle-cam / scope effects):
+--   Use this if you want realistic viewbob/camera effect on your weapons
+--   att meaning attachment to follow in your model and scale the strength of the effect
 --     fire = { seq = "shoot", eye_attachment = { att = "muzzle", scale = 1.0 } }
 --
 -- ── Automatic variant fallback chain ─────────────────────────────────────────
