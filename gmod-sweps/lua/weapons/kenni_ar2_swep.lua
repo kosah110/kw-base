@@ -892,7 +892,7 @@ SWEP.Throwing = nil
 --[[
 SWEP.Throwing = {
     Entity   = "npc_grenade_frag",
-    Timer    = 3.5,      -- fuse in seconds passed via ent:Input("settimer", ...) (nil = no input)
+    Timer    = 3.5,      -- fuse in seconds passed via ent:Input("settimer", ...) (nil = no input). Note Timer entry only unique for npc_grenade_frag.
     HoldTime = 3.5,      -- max cook time before auto-release (0 = no limit)
     Sound    = "Grenade.Blip",
 
